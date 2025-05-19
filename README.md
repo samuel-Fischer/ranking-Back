@@ -51,7 +51,7 @@ git clone https://github.com/seu-usuario/ranking-back.git
 # 2. Acesse a pasta do projeto
 cd ranking-back
 
-# 3. Crie um arquivo .env com base no .env.example (ou fornecido por você)
+# 3. Crie um arquivo .env com base no .env.example
 
 # 4. Suba os containers (pode demorar um pouco no primeiro build)
 docker compose up --build
