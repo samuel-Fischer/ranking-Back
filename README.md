@@ -46,7 +46,7 @@ Escrevi um artigo no Medium explicando o processo de desenvolvimento completo de
 
 ```bash
 # 1. Clone o repositório
-git clone https://github.com/seu-usuario/ranking-back.git
+git clone https://github.com/samuel-Fischer/ranking-Back.git
 
 # 2. Acesse a pasta do projeto
 cd ranking-back
@@ -83,7 +83,7 @@ npm install bcrypt
 Você pode testar as rotas da API usando o Insomnia.  
 Caso queira, importe o arquivo de coleção disponível na pasta `/insomnia`.
 
-🔗 [Importar Collection do Insomnia](https://raw.githubusercontent.com/samuel-Fischer/ranking-back/main/insomnia/Insomnia_2025-05-19.json)
+🔗 [Ir para o Insomnia](https://raw.githubusercontent.com/samuel-Fischer/ranking-back/main/insomnia/Insomnia_2025-05-19.json)
 ---
 
 ## 📁 Scripts úteis
