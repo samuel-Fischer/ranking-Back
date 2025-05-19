@@ -2,6 +2,13 @@
   <img src="https://nestjs.com/img/logo-small.svg" width="200" alt="NestJS Logo" />
 </p>
 
+<p align="center">
+  <img src="https://img.shields.io/github/last-commit/samuel-Fischer/ranking-back" alt="Last commit">
+  <img src="https://img.shields.io/github/repo-size/samuel-Fischer/ranking-back" alt="Repo size">
+  <img src="https://img.shields.io/github/forks/samuel-Fischer/ranking-back?style=social" alt="Forks">
+  <img src="https://img.shields.io/github/stars/samuel-Fischer/ranking-back?style=social" alt="Stars">
+</p>
+
 # 🏆 Ranking Padel - Back-end (Parte 1/2)
 
 Este é o back-end do projeto **Ranking Padel**, desenvolvido com [NestJS](https://nestjs.com/). Ele é responsável por lidar com autenticação, cadastro de usuários, envio de fotos de perfil, registro de partidas e mais.
@@ -14,7 +21,7 @@ Este é o back-end do projeto **Ranking Padel**, desenvolvido com [NestJS](https
 
 Escrevi um artigo no Medium explicando o processo de desenvolvimento completo deste projeto. Você pode ler aqui:
 
-🔗 [Veja o artigo no Medium](https://medium.com/seu-link-aqui)
+🔗 [Veja o artigo no Medium](https://medium.com/@samuelsenacrs/ranking-padel-sistema-de-gerenciamento-de-ranking-41a1c22e0bbd)
 
 ## 🚀 Tecnologias
 
