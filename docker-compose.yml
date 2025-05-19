@@ -1,0 +1,24 @@
+version: '3'
+
+services:
+  app:
+    build: ./
+    container_name: padel-API
+    ports:
+      - "3000:3000"
+    volumes:
+      - .:/usr/src/app
+    depends_on:
+      - postgres
+    env_file:
+      - .env
+
+  postgres:
+    image: postgres:latest
+    environment:
+      POSTGRES_DB: ${DB_NAME}
+      POSTGRES_USER: ${DB_USER}
+      POSTGRES_PASSWORD: ${DB_PASS}
+      JWT_SECRET: ${JWT_SECRET}
+    ports:
+      - "5432:5432"

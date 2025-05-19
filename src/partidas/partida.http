@@ -1,0 +1,9 @@
+## lista todos as partidas
+GET http://localhost:3000/partidas
+
+
+### lista de partidas com filtro
+GET http://localhost:3000/partidas/usuario/16
+
+
+

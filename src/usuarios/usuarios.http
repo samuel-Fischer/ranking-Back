@@ -1,0 +1,31 @@
+### lista de usuarios
+GET http://localhost:3000/usuarios
+
+### criação de usuários
+POST http://localhost:3000/usuarios
+Content-Type: application/json
+
+{
+    "nome": "PaiDoSamuel",
+    "apelido": "Prefeito",
+    "email": "pds@gmail.com",
+    "senha": "Gremio123",
+    "dataNascimento": "1990-01-01",
+    "cidade": "Pelotas"
+
+}
+
+### detalhes de um usuário específico
+GET http://localhost:3000/usuarios/rankings
+
+
+### atualização de um usuário específico
+PATCH http://localhost:3000/usuarios/1
+Content-Type: application/json
+
+{
+    "nome": "John Oe"
+}
+
+### exclusão de um usuário específico
+DELETE http://localhost:3000/usuarios/3

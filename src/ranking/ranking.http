@@ -1,0 +1,29 @@
+### lista de ranking de jogadores
+GET http://localhost:3000/ranking
+
+
+### lista de ranking de jogadores por categoria
+GET http://localhost:3000/ranking/4
+
+
+### criação de ranking
+POST http://localhost:3000/ranking
+Content-Type: application/json
+
+{
+    "nome": "Rank 1"
+}
+
+
+
+
+
+PATCH http://localhost:3000/ranking/1
+Content-Type: application/json
+
+{
+    "nome": "Rank 2"
+}
+
+
+DELETE http://localhost:3000/ranking/3
