@@ -9,7 +9,7 @@
   <img src="https://img.shields.io/github/stars/samuel-Fischer/ranking-back?style=social" alt="Stars">
 </p>
 
-# 🏆 Ranking Padel - Back-end (Parte 1/2)
+# 🎾 Ranking Padel - Back-end (Parte 1/2)
 
 Este é o back-end do projeto **Ranking Padel**, desenvolvido com [NestJS](https://nestjs.com/). Ele é responsável por lidar com autenticação, cadastro de usuários, envio de fotos de perfil, registro de partidas e mais.
 
@@ -57,7 +57,7 @@ cd ranking-back
 docker compose up --build
 ```
 
-> 📌 A API rodará em: `http://localhost:3000`
+> 📌 A API rodará por padrão em: `http://localhost:3000`
 
 ---
 
@@ -84,6 +84,7 @@ Você pode testar as rotas da API usando o Insomnia.
 Caso queira, importe o arquivo de coleção disponível na pasta `/insomnia`.
 
 🔗 [Ir para o Insomnia](https://raw.githubusercontent.com/samuel-Fischer/ranking-back/main/insomnia/Insomnia_2025-05-19.json)
+
 ---
 
 ## 📁 Scripts úteis
