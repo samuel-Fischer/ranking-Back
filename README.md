@@ -23,6 +23,8 @@ Escrevi um artigo no Medium explicando o processo de desenvolvimento completo de
 
 🔗 [Veja o artigo no Medium](https://medium.com/@samuelsenacrs/ranking-padel-sistema-de-gerenciamento-de-ranking-41a1c22e0bbd)
 
+---
+
 ## 🚀 Tecnologias
 
 - Node.js + NestJS
@@ -87,22 +89,12 @@ Caso queira, importe o arquivo de coleção disponível na pasta `/insomnia`.
 
 ---
 
-## 📁 Scripts úteis
-
-```bash
-# Dev
-npm run start:dev
-```
-
----
-
 ## 📎 Parte 2/2
 
 O front-end (Next.js) está disponível no repositório:  
 🔗 `https://github.com/samuel-Fischer/ranking-Front`
 
 ---
-
 
 ### 🏷️ Tags
 
