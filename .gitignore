@@ -3,7 +3,8 @@
 pnpm-lock.yaml
 /node_modules
 
-/storage/fotos
+/storage/fotos/*
+!storage/fotos/perfil.png
 
 # dotenv environment variable files
 .env
