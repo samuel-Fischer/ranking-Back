@@ -2,7 +2,14 @@
   <img src="https://nestjs.com/img/logo-small.svg" width="200" alt="NestJS Logo" />
 </p>
 
-# 🏆 Ranking Padel - Back-end (Parte 1/2)
+<p align="center">
+  <img src="https://img.shields.io/github/last-commit/samuel-Fischer/ranking-back" alt="Last commit">
+  <img src="https://img.shields.io/github/repo-size/samuel-Fischer/ranking-back" alt="Repo size">
+  <img src="https://img.shields.io/github/forks/samuel-Fischer/ranking-back?style=social" alt="Forks">
+  <img src="https://img.shields.io/github/stars/samuel-Fischer/ranking-back?style=social" alt="Stars">
+</p>
+
+# 🎾 Ranking Padel - Back-end (Parte 1/2)
 
 Este é o back-end do projeto **Ranking Padel**, desenvolvido com [NestJS](https://nestjs.com/). Ele é responsável por lidar com autenticação, cadastro de usuários, envio de fotos de perfil, registro de partidas e mais.
 
@@ -14,7 +21,9 @@ Este é o back-end do projeto **Ranking Padel**, desenvolvido com [NestJS](https
 
 Escrevi um artigo no Medium explicando o processo de desenvolvimento completo deste projeto. Você pode ler aqui:
 
-🔗 [Veja o artigo no Medium](https://medium.com/seu-link-aqui)
+🔗 [Veja o artigo no Medium](https://medium.com/@samuelsenacrs/ranking-padel-sistema-de-gerenciamento-de-ranking-41a1c22e0bbd)
+
+---
 
 ## 🚀 Tecnologias
 
@@ -39,18 +48,18 @@ Escrevi um artigo no Medium explicando o processo de desenvolvimento completo de
 
 ```bash
 # 1. Clone o repositório
-git clone https://github.com/seu-usuario/ranking-back.git
+git clone https://github.com/samuel-Fischer/ranking-Back.git
 
 # 2. Acesse a pasta do projeto
 cd ranking-back
 
-# 3. Crie um arquivo .env com base no .env.example (ou fornecido por você)
+# 3. Crie um arquivo .env com base no .env.example
 
 # 4. Suba os containers (pode demorar um pouco no primeiro build)
 docker compose up --build
 ```
 
-> 📌 A API rodará em: `http://localhost:3000`
+> 📌 A API rodará por padrão em: `http://localhost:3000`
 
 ---
 
@@ -76,15 +85,7 @@ npm install bcrypt
 Você pode testar as rotas da API usando o Insomnia.  
 Caso queira, importe o arquivo de coleção disponível na pasta `/insomnia`.
 
-🔗 [Importar Collection do Insomnia](https://raw.githubusercontent.com/samuel-Fischer/ranking-back/main/insomnia/Insomnia_2025-05-19.json)
----
-
-## 📁 Scripts úteis
-
-```bash
-# Dev
-npm run start:dev
-```
+🔗 [Ir para o Insomnia](https://raw.githubusercontent.com/samuel-Fischer/ranking-back/main/insomnia/Insomnia_2025-05-19.json)
 
 ---
 
@@ -94,7 +95,6 @@ O front-end (Next.js) está disponível no repositório:
 🔗 `https://github.com/samuel-Fischer/ranking-Front`
 
 ---
-
 
 ### 🏷️ Tags
 
